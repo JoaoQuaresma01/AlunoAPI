@@ -70,6 +70,11 @@ Body (JSON):
 🔹 Remover aluno
 
 DELETE /alunos/:ra
+{
+  "nome": "João Silva",
+  "turma": "DSM",
+  "cursos": ["Python", "Django"]
+}
 
 🧪 Testando com Postman
 
