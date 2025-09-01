@@ -12,7 +12,7 @@ Permite listar, cadastrar, atualizar e excluir alunos, além de adicionar cursos
 
 Node.js
 
-Express
+Express 
 
 📦 Como rodar o projeto
 1. Clonar o repositório
@@ -21,8 +21,9 @@ cd alunoapi
 
 2. Instalar dependências
 npm install
+npm install express
 
-3. Rodar o servidor
+4. Rodar o servidor
 node app.js
 
 
@@ -30,6 +31,7 @@ Servidor disponível em:
 👉 http://localhost:3000
 
 📌 Endpoints disponíveis
+
 🔹 Listar todos os alunos
 
 GET /
