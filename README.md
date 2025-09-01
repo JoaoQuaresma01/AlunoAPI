@@ -20,7 +20,7 @@ git clone https://github.com/seu-usuario/alunoapi.git
 cd alunoapi
 
 2. Instalar dependências
-npm install
+npm install,
 npm install express
 
 4. Rodar o servidor
