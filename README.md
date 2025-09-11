@@ -12,7 +12,7 @@ Permite listar, cadastrar, atualizar e excluir alunos, além de adicionar cursos
 
 Node.js
 
-Express
+Express 
 
 Estrutura do projeto
 
@@ -31,9 +31,10 @@ git clone https://github.com/seu-usuario/alunoapi.git
 cd alunoapi
 
 2. Instalar dependências
-npm install
+npm install,
+npm install express
 
-3. Rodar o servidor
+4. Rodar o servidor
 node app.js
 
 
@@ -41,6 +42,7 @@ Servidor disponível em:
 👉 http://localhost:3000
 
 📌 Endpoints disponíveis
+
 🔹 Listar todos os alunos
 
 GET /
@@ -81,6 +83,12 @@ Body (JSON):
 🔹 Remover aluno
 
 DELETE /alunos/:ra
+
+{
+  "nome": "João Silva",
+  "turma": "DSM",
+  "cursos": ["Python", "Django"]
+}
 
 🧪 Testando com Postman
 
