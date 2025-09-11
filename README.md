@@ -14,6 +14,17 @@ Node.js
 
 Express
 
+Estrutura do projeto
+
+ALUNOAPI/
+│-- node_modules/       # Dependências instaladas pelo npm
+│-- .gitignore          # Arquivos/pastas ignorados pelo Git
+│-- app.js              # Arquivo principal do servidor Express
+│-- package-lock.json   # Registro exato das dependências instaladas
+│-- package.json        # Configurações do projeto e dependências
+│-- README.md           # Documentação do projeto
+
+
 📦 Como rodar o projeto
 1. Clonar o repositório
 git clone https://github.com/seu-usuario/alunoapi.git
